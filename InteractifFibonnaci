@@ -9,7 +9,7 @@ if (n < 0) {
     // un cas particuliers
     let a = 0, b = 1, resultat;
     
-    // j'affichage des cas de base directement
+    // j'affiche des cas 
     if (n === 0) {
         console.log("Le 0ᵉ terme de Fibonacci est : 0");
     } else if (n === 1) {
