@@ -1,0 +1,26 @@
+// wsem my dream digi tp
+// Je declare une variable souhaité
+let n = 10; 
+
+// Je verifie que n est bien positif
+if (n < 0) {
+    console.log("Veuillez entrer un nombre positif.");
+} else {
+    // un cas particuliers
+    let a = 0, b = 1, resultat;
+    
+    // j'affichage des cas de base directement
+    if (n === 0) {
+        console.log("Le 0ᵉ terme de Fibonacci est : 0");
+    } else if (n === 1) {
+        console.log("Le 1ᵉ terme de Fibonacci est : 1");
+    } else {
+        // je fais une boucle pour calculer Fibonacci
+        for (let i = 2; i <= n; i++) {
+            resultat = a + b;
+            a = b;
+            b = resultat;
+        }
+        console.log(`Le ${n}ᵉ terme de Fibonacci est : ${resultat}`);
+    }
+}

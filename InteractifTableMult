@@ -1,0 +1,14 @@
+// wsem my digi tp 
+// Je declare une variable entre 1 et 10
+let n = 3; 
+
+console.log(`Table de ${n} :`);
+
+// je vérifie que n est bien entre 1 et 10
+if (n >= 1 && n <= 10) {
+    for (let i = 1; i <= 10; i++) { // je fais une boucle de 1 a 10
+        console.log(`${n} * ${i} = ${n * i}`);
+    }
+} else { 
+    console.log("Veuillez entrer un nombre entre 1 et 10.");
+}
