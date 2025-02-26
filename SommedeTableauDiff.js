@@ -11,9 +11,9 @@ let sommeTableaux = [];
 
 // je fais la boucle pour additionner les éléments des deux tableaux en tenant compte de la différence de taille
 for (let i = 0; i < maxLength; i++) {
-    let val1 = i < array1.length ? array1[i] : 0;
-    let val2 = i < array2.length ? array2[i] : 0;
-    sommeTableaux.push(val1 + val2);
+    let val1 = i < array1.length ? array1[i] : 0; // je vérifie si l'index est dans le tableau
+    let val2 = i < array2.length ? array2[i] : 0; // je vérifie si l'index est dans le tableau
+    sommeTableaux.push(val1 + val2); // j'ajoute la somme des éléments dans le tableau
 }
 
 // j'affiche le résultat

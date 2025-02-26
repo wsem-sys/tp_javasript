@@ -7,8 +7,8 @@ let array2 = [-1, 12, 17, 14, 5, -9, 0, 18, -6, 0, 4, -13, 5, 7, -2, 8, -1];
 let sommeTableaux = [];
 
 // je fais une boucle pour additionner les éléments correspondants des deux tableaux
-for (let i = 0; i < array1.length; i++) {
-    sommeTableaux.push(array1[i] + array2[i]);
+for (let i = 0; i < array1.length; i++) { //
+    sommeTableaux.push(array1[i] + array2[i]); // j'ajoute la somme des éléments dans le tableau
 }
 
 // j'affichage le résultat
