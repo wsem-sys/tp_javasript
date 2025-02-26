@@ -1,14 +1,14 @@
 // by wsem
-// Déclaration d'une variable contenant une valeur numérique entière
-let valeur = 10; // Modifier cette valeur selon les besoins
+// Je déclare une variable contenant une valeur un nombre
+let valeur = 10; // je modifie cette valeur au choix
 
-// Initialisation de la somme
+// Je initialisation de la somme
 let somme = 0;
 
-// Boucle pour calculer la somme des nombres de 1 à "valeur"
+// Je fais la boucle pour calculer la somme des nombres de 1 à "valeur"
 for (let i = 1; i <= valeur; i++) {
     somme += i;
 }
 
-// Affichage du résultat
+// je fais l'affichage du résultat
 console.log(`La somme des nombres de 1 à ${valeur} est : ${somme}`);
