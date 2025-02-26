@@ -1,4 +1,4 @@
-// by wsem
+// by wsem digi
 // Je déclare une variable contenant une valeur un nombre
 let valeur = 10; // je modifie cette valeur au choix
 
