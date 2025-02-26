@@ -17,5 +17,5 @@ for (let i = 0; i < maxLength; i++) {
 }
 
 // j'affiche le résultat
-console.log("Tableau résultant de la somme avec tailles différentes :");
+console.log("Le tableau résultant de la somme avec tailles différentes :");
 console.log(sommeTableaux);

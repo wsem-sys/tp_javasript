@@ -12,5 +12,5 @@ for (let i = 0; i < array1.length; i++) { //
 }
 
 // j'affichage le résultat
-console.log("Tableau résultant de la somme :");
+console.log(" le tableau résultant de la somme :");
 console.log(sommeTableaux);
