@@ -14,7 +14,7 @@ for (let i = array.length - 1; i >= 0; i--) {
     console.log(array[i]);
 }
 
-// On a la création d'une copie du tableau
+// On a la création d'une copie du tableau original
 let arrayCopy = [...array];
 
 console.log("Copie du tableau original :");

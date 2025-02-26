@@ -10,5 +10,5 @@ for (let i = 1; i <= valeur; i++) {
     somme += i;
 }
 
-// je fais l'affichage du résultat
+// Nous avons l'affichage du résultat ici
 console.log(`La somme des nombres de 1 à ${valeur} est : ${somme}`);
