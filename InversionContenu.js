@@ -9,8 +9,8 @@ for (let i = array.length - 1; i >= 0; i--) {
 }
 
 // j'affiche les deux tableaux , le tableaux original et le tableau inversé
-console.log("Tableau original :");
+console.log(" Voici le Tableau original :");
 console.log(array);
 
-console.log("Tableau inversé (arrayCopy) :");
+console.log("Voici le tableau inversé  :");
 console.log(arrayCopy);
